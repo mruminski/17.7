@@ -1,0 +1,32 @@
+{
+  "name": "177",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint *.js"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mruminski/17.7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mruminski/17.7/issues"
+  },
+  "homepage": "https://github.com/mruminski/17.7#readme",
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-plugin-react": "^7.11.1",
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth": "^1.0.0",
+    "pre-commit": "^1.2.2",
+    "pug": "^2.0.3"
+  }
+}
